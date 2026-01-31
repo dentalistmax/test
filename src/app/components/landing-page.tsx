@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 import {Youtube, Music, Facebook, Instagram, Linkedin, Globe, Heart, Info, Users, Eye, Zap } from 'lucide-react';
 /* import logo from 'figma:asset/6223fe5032d8da144d9baf903ed2611b2a580f46.png'; */
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import { db } from "../../firebaseConfig";
+import logo from '@/logo.jpeg';
+import { db } from "../../firebaseConfig"; 
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 
 interface FormData {
@@ -394,7 +395,7 @@ export default function LandingPage() {
           />
           
           <motion.img
-            src={"src/logo.jpeg"}
+            src={logo}
             alt="DentlistMax Logo"
             className="w-full h-auto relative z-10 drop-shadow-2xl"
             animate={{
