@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import {Youtube, Music, Facebook, Instagram, Linkedin, Globe, Heart, Info, Users, Eye, Zap } from 'lucide-react';
 /* import logo from 'figma:asset/6223fe5032d8da144d9baf903ed2611b2a580f46.png'; */
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import logo from '@/logo.jpeg';
+import logo from '/images/logo.jpeg';
 import { db } from "../../firebaseConfig"; 
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 
