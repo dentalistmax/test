@@ -5,7 +5,7 @@ import RegistrationForm from './components/registration-form';
 
 export default function App() {
   return (
-    <BrowserRouter basename="/Dentalist-max-web">
+    <BrowserRouter basename="/test">
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/subscribe" element={<SubscriberForm />} />
