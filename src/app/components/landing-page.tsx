@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
-import {Youtube, Music, Facebook, Instagram, Linkedin, Globe, Heart, Info, Users, Eye, Zap } from 'lucide-react';
+import {Youtube, Music, Facebook, Instagram, Linkedin, Globe, Heart, Info, Users, Eye, Zap, ChevronDown } from 'lucide-react';
 /* import logo from 'figma:asset/6223fe5032d8da144d9baf903ed2611b2a580f46.png'; */
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import logo from '/images/logo.jpeg';
@@ -369,6 +369,19 @@ export default function LandingPage() {
                 Professional Registration Form →
               </motion.button>
             </Link>
+
+            {/* Button to scroll to social media section */}
+            <motion.button
+              onClick={() => {
+                const el = document.getElementById('social-media');
+                el?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              }}
+              className="w-1/2 mx-auto mt-10 bg-gradient-to-r from-white/6 to-white/3 text-white py-3 px-6 rounded-xl font-semibold border border-white/20 shadow-lg flex items-center justify-center gap-3 hover:scale-105 transition-transform duration-200 group"
+              whileTap={{ scale: 0.98 }}
+            >
+              <span>Follow Us</span>
+              <ChevronDown className="text-white group-hover:animate-bounce transition-transform duration-200" size={18} />
+            </motion.button>
           </motion.div>
         </motion.div>
       </div>
@@ -660,7 +673,7 @@ export default function LandingPage() {
           </div>
         </div>
         
-<div className="flex items-center justify-center gap-6 mb-8 mt-20">
+<div id="social-media" className="flex items-center justify-center gap-6 mb-8 mt-20">
   {[
     { icon: <Youtube size={22} />, href: "https://youtube.com/@dentlistmax?si=xCIfR5Yo82spiRN_", color: "hover:text-[#FF0000]" },
     { icon: <Instagram size={20} />, href: "https://www.instagram.com/dentlistmax?igsh=a3ZpNW4wdDdsZ3Bx&utm_source=qr", color: "hover:text-[#E1306C]" },
