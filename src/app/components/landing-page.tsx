@@ -370,7 +370,7 @@ export default function LandingPage() {
               </motion.button>
             </Link>
 
-            {/* Button to scroll to social media section */}
+            {/*add Button to scroll to social media section */}
             <motion.button
               onClick={() => {
                 const el = document.getElementById('social-media');
