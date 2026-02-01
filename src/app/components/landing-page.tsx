@@ -29,56 +29,57 @@ interface Course {
 const courses: Course[] = [
   {
     id: 1,
-    name: "Dental Pharmacology",
+    name: "Impacted Tooth Extraction",
     // Use a relative path that points to your images folder
     image: "images/course-1.jpeg", 
-    description: "Enhance your clinical practice with essential pharmacology knowledge",
-    duration: "Dr.Shahad Salah",
+    description: "Gain confidence in managing impacted teeth through structured surgical protocols, clinical tips, and case discussions.",
+    duration: "Dr.Thomas Momen",
     level: "Online course"
   },
   {
     id: 2,
-    name: "Modern Endodontics",
+    name: "Clinical Decision-Making in Medically Compromised Dental Patients",
     image: "images/course-2.jpeg",
-    description: "Learn contemporary root canal treatment techniques using rotary instrumentation and modern obturation methods. Includes hands-on practice with digital imaging.",
-    duration: "6 weeks",
-    level: "Intermediate"
+    description: "Enhance your confidence in managing patients with complex medical conditions. This course covers systematic assessment, evidence-based treatment modifications, and emergency preparedness to ensure safe, predictable dental care in medically compromised individuals.",
+    duration: "Dr. Shahad Salah",
+    level: "Online course"
   },
   {
     id: 3,
-    name: "Cosmetic Dentistry Essentials",
+    name: "Digital Mastery program",
     image: "images/course-3.jpeg",
-    description: "Transform smiles with confidence! Explore veneers, bonding, teeth whitening, and smile design principles. Perfect for practitioners looking to expand their cosmetic offerings.",
-    duration: "10 weeks",
-    level: "All Levels"
+    description: "Master modern workflows to elevate patient care and profitability, Master modern digital workflows and transform your restorative practice",
+    duration: "Dr. Esraa Elsayed",
+    level: "Online Course"
   },
   {
     id: 4,
-    name: "Orthodontics Fundamentals",
+    name: "Clinical Decision-Making in Medically Compromised Dental Patients",
     image: "images/course-4.jpeg",
     description: "Introduction to orthodontic diagnosis, treatment planning, and basic appliance therapy. Learn to identify malocclusions and understand treatment mechanics.",
-    duration: "12 weeks",
-    level: "Beginner"
+    duration: "Dr. Shahad Salah",
+    level: "Online course"
   },
   /* {
     id: 5,
-    name:"Cosmetic Dentistry Essentials",
+    name:"Digital Mastery program",
     image: "https://images.unsplash.com/photo-1758205308179-4e00e0e4060b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW50YWwlMjBzdXJnZXJ5JTIwcHJvZmVzc2lvbmFsfGVufDF8fHx8MTc2ODgwNTQwNXww&ixlib=rb-4.1.0&q=80&w=1080",
-    description: "Transform smiles with confidence! Explore veneers, bonding, teeth whitening, and smile design principles. Perfect for practitioners looking to expand their cosmetic offerings.",
-    duration: "10 weeks",
-    level: "All Levels"
+    description: "Master modern workflows to elevate patient care and profitability 
+Master modern digital workflows and transform your restorative practice",
+    duration: "Dr. Esraa Elsayed",
+    level: "Online Course"
   },
   {
     id: 6,
-    name: "Orthodontics Fundamentals",
+    name: "Clinical Decision-Making in Medically Compromised Dental Patients",
     image: "https://images.unsplash.com/photo-1598256989809-394fa4f6cd26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvcnRob2RvbnRpY3MlMjB0ZWV0aCUyMGNhcmV8ZW58MXx8fHwxNzY4ODIxNDk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
     description: "Introduction to orthodontic diagnosis, treatment planning, and basic appliance therapy. Learn to identify malocclusions and understand treatment mechanics.",
-    duration: "12 weeks",
-    level: "Beginner"
+    duration: "Online course Salah",
+    level: "Online course Salah"
   },
   {
     id: 7,
-    name: "Dental Pharmacology",
+    name: "Impacted Tooth Extraction",
     image: "https://images.unsplash.com/photo-1758205307783-f31fe8499814?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW50YWwlMjBlZHVjYXRpb24lMjB0cmFpbmluZ3xlbnwxfHx8fDE3Njg4MjE0OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
     description: "Master the latest techniques in dental implant placement and restoration. This comprehensive course covers surgical protocols, bone grafting, and immediate loading concepts.",
     duration: "Online course 
@@ -87,11 +88,11 @@ const courses: Course[] = [
   },
   {
     id: 8,
-    name: "Modern Endodontics",
+    name: "Clinical Decision-Making in Medically Compromised Dental Patients",
     image: "https://images.unsplash.com/photo-1758653500342-5476c8ec3da6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW50aXN0JTIwcHJhY3RpY2UlMjBtZWRpY2FsfGVufDF8fHx8MTc2ODgyMTQ5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-    description: "Learn contemporary root canal treatment techniques using rotary instrumentation and modern obturation methods. Includes hands-on practice with digital imaging.",
-    duration: "6 weeks",
-    level: "Intermediate"
+    description: "Enhance your confidence in managing patients with complex medical conditions. This course covers systematic assessment, evidence-based treatment modifications, and emergency preparedness to ensure safe, predictable dental care in medically compromised individuals.",
+    duration: "Online course Salah",
+    level: "Online course"
   } */
 
 ];
