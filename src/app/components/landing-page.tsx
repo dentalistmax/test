@@ -339,7 +339,7 @@ export default function LandingPage() {
                   ✓
                 </motion.div>
                 <p className="font-medium">Thank you for registering!</p>
-                <p className="text-sm text-white/80">We'll notify yo soon.</p>
+                <p className="text-sm text-white/80">We'll notify you soon.</p>
               </motion.div>
             )}
           </motion.form>
