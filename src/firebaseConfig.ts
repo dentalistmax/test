@@ -8,12 +8,12 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCcDV8lZW1sjNzvewosmnCElOD_kb5VaGI",
+ // apiKey: "AIzaSyCcDV8lZW1sjNzvewosmnCElOD_kb5VaGI",
   authDomain: "DentlistMax-web.firebaseapp.com",
   projectId: "DentlistMax-web",
   storageBucket: "DentlistMax-web.firebasestorage.app",
   messagingSenderId: "554374262613",
-  appId: "1:554374262613:web:e2321b3e6439bfc2e609dc",
+ // appId: "1:554374262613:web:e2321b3e6439bfc2e609dc",
   measurementId: "G-WR27S5HMNN"
 };
 
