@@ -14,7 +14,7 @@ const firebaseConfig = {
   storageBucket: "DentlistMax-web.firebasestorage.app",
   messagingSenderId: "554374262613",
  // appId: "1:554374262613:web:e2321b3e6439bfc2e609dc",
-  measurementId: "G-WR27S5HMNN"
+ // measurementId: "G-WR27S5HMNN"
 };
 
 // Initialize Firebase
