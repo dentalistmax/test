@@ -140,7 +140,7 @@ export default function LandingPage() {
     try {
     // إرسال البيانات لـ Firestore
     const docRef = await addDoc(collection(db, "registrations"), {
-      name: name, // القيمة من الـ state
+      name: data.name, // القيمة من الـ state
       email: data.email,
       createdAt: new Date()
     });
