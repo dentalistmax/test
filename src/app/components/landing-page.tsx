@@ -138,11 +138,12 @@ export default function LandingPage() {
 
   const onSubmit = async (data: FormData) => {
     try {
-      await addDoc(collection(db, "Waiting_list_Regiterations"), {
-        name: data.name,
-        email: data.email,
-        createdAt: serverTimestamp(),
-      });
+    // إرسال البيانات لـ Firestore
+    const docRef = await addDoc(collection(db, "registrations"), {
+      name: name, // القيمة من الـ state
+      email: data.email,
+      createdAt: new Date()
+    });
       setIsSubmitted(true);
       // Reset form and success message after 3 seconds
       setTimeout(() => {
